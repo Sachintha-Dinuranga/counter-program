@@ -1,0 +1,31 @@
+body{
+    background-image: url(sky.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#countlable{
+    font-size: 10em;
+    display: block;
+    text-align: center;
+    font-family: Helvetica;
+    color: white;
+}
+
+#btnContainer{
+    text-align: center;
+}
+
+.btns{
+    padding: 10px 20px;
+    font-size: 1.5em;
+    color: white;
+    background-color: rgb(48, 48, 120);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.25;
+}
+
+.btns:hover{
+    background-color:rgb(41, 41, 84);
+}
